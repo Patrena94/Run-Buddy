@@ -11,7 +11,7 @@ header {padding: 20px 35px;
         background-color: #39a6b2;
         display: flex;
         justify-content: space-between;
-        flex-wrap: warp;
+        flex-wrap: wrap;
         position:-webkit-sticky sticky;
         top: 0;
         background-image: url("../assets/images/hero-bg.jpg");
@@ -34,9 +34,17 @@ header nav {
 }
 header nav ul li { display: inline;
 }
-header nav ul li a { margin: 0 30px; 
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style:none;
+}
+header nav ul li a { 
+    margin: 0 30px; 
     font-weight: lighter;
-    font-size: 22px;
+    font-size: 22px1.55vw;
 }
 
 footer { background: #fce138; 
