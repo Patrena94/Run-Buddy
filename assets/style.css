@@ -170,12 +170,9 @@ background: #024e76;
 color: #fce138; 
 overflow:auto;
 }
-.trainer img{ width: 35%;
-float: left;
+.trainer img{ width: 100%;
 }
-.trainer-bio {padding: 35px; 
-float: left;
-width: 65%;
+.trainer-bio {padding: 25px; 
 }
 .trainer-bio h3 {font-size: 32px;
     margin-bottom: 8px;
