@@ -313,13 +313,13 @@ background: #fce138;
     font-size: 28px;
    }
 
-   .trainer-bio h4 {
+.trainer-bio h4 {
        font-weight: lighter; 
        font-size: 22px;
        margin-bottom: 15px;
     }
 
-    .trainer-bio p { 
+.trainer-bio p { 
         font-size: 17px; 
     }
 
